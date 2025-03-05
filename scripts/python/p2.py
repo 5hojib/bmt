@@ -20,7 +20,7 @@ logging.basicConfig(
 TG_API_ID = int(os.environ.get("TG_API_ID", "6"))
 TG_API_HASH = os.environ.get("TG_API_HASH", "")
 TG_BOT_TOKEN = os.environ.get("TG_BOT_TOKEN")
-TG_FLOOD_SLEEP_THRESHOLD = int(os.environ.get("TG_FLOOD_SLEEP_THRESHOLD", "10"))
+TG_FLOOD_SLEEP_THRESHOLD = int(os.environ.get("TG_FLOOD_SLEEP_THRESHOLD") or "10")
 TG_SESSION = os.environ.get("TG_SESSION", "")
 TG_MESSAGE_LINK = os.environ.get("TG_MESSAGE_LINK", "")
 
