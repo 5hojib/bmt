@@ -8,6 +8,10 @@ const libs = [
         repo: "https://github.com/pyrogram/pyrogram",
     },
     {
+        name: "electrogram",
+        repo: "https://github.com/AeonOrg/Electrogram",
+    },
+    {
         name: "gogram",
         repo: "https://github.com/amarnathcjd/gogram",
     },
